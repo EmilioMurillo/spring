@@ -1,0 +1,188 @@
+body{
+  display: block;
+  margin: 0;
+  font-family: sans-serif;
+}
+footer{
+  clear: both;
+}
+/* Start Welcome Page CSS*/
+
+main {
+  width: 100%;
+  max-height: 100vh;
+  float: left;
+
+}
+.hero-sec {
+  width: 50%;
+  float: left;
+  max-height: 70vh;
+  margin-left: 24%;
+  text-align: -webkit-center;
+}
+main h1 {
+  display: block;
+  /*position: absolute;*/
+  font-family: helvetica;
+  color: black;
+  font-size: 100px;
+  margin: 0;
+  margin-top: 33%;
+  /*margin-left: 12%;
+  margin-top: 2%;
+  letter-spacing: 3px;*/
+}
+main h1:hover {
+  color: blue;
+  cursor: crosshair;
+}
+main h1 a {
+  text-decoration: none;
+  color: black;
+}
+main h1 a:hover {
+  color: blue;
+}
+/*main img{
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}*/
+main nav {
+  width: 75%;
+  /*position: absolute;*/
+
+}
+main nav ul {
+  width: 100%;
+  padding: 0px;
+}
+main nav ul li {
+  display: inline-block;
+  font-family: ariel;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  font-size: 20px;
+  margin-left: 30px;
+}
+main nav ul a {
+  text-decoration: none;
+  color: black;
+}
+main nav ul a:hover {
+  color: grey;
+}
+
+section.about {
+  width: 100%;
+  clear: both;
+  max-height: 100vh;
+}
+section.about h2 {
+  display: block;
+  margin: 0 auto;
+  width: 25%;
+  text-align: center;
+  padding-top: 15%;
+  padding-bottom: 2%;
+  font-family: helvetica;
+}
+section.about p {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 5%;
+  font-size: 20px;
+  padding-top: 25%;
+
+}
+
+/* End Welcome Page CSS*/
+
+section.footer h4{
+  text-align: center;
+}
+section{
+  float: left;
+  width: 100%;
+  /*border: 1px solid black;*/
+}
+div{
+  clear: both;
+}
+section.hero nav {
+  width: 29%;
+  margin: 0 auto;
+}
+section.hero nav ul{
+  width: 100%;
+}
+section.hero nav ul li {
+  display: inline-block;
+  padding: 1%;
+}
+section.hero h1{
+  text-align: center;
+}
+section div {
+  max-height: 100vh;
+
+}
+.img-container {
+  width: 100%;
+  margin: 0 auto;
+}
+.img-container img {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100vh;
+  margin-left: 31%;
+  padding-top: 10%;
+}
+section.hero div.info {
+  width: 70%;
+  margin: 0 auto;
+  padding: 2%;
+}
+section.hero section.info p {
+  text-align: left;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  animation-duration: 4s;
+}
+
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 600px) {
+  main section.hero-sec nav {
+    width: 100%;
+    margin-left: -22%;
+  }
+  main h1 {
+    margin-left: -28%;
+    margin-top: 25vh;
+  }
+
+  .img-container img {
+    width: 100%;
+  }
+}
